@@ -162,8 +162,8 @@ header{
   margin-top: 116px;
 }
 .sort{
-  justify-content: center;
   display: flex;
+  justify-content: center;
   margin-top: 11px;
   margin-bottom: 34px;  
 }
@@ -207,7 +207,9 @@ header{
 
 /*advise*/
 .advise-wrapper{
-  
+  background-color: #FFFFFF;
+  margin: 10px;
+
 }
 
 
