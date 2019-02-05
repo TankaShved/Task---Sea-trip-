@@ -15,33 +15,21 @@ body{
 }
 
 h1{
-  margin: 35px 0 0 0;
-
+  margin: 11px 0 0 0;
   font-family: Roboto Slab;
-  line-height: 48px;
   font-size: 100px;
   font-weight: normal;
 }
 h2{
-  margin: 22px 0 0 0;
-
+  margin: 6px 0 0 0;
   font-family: Roboto Slab;
   font-weight: normal;
-  line-height: 48px;
   font-size: 36px;
   text-align: center;
   letter-spacing: 1.8px;
-
-}
-h3{
-  font-family: Roboto Slab;
-  line-height: 48px;
-  font-size: 30px;
-  color: #0D3351;
 }
 h6{
   font-family: Roboto Slab;
-  line-height: 48px;
   font-size: 18px;
   color: #00A2DD;
 }
@@ -50,12 +38,24 @@ p{
   font-size: 14px;
 
 }
+.price{
+  font-family: Roboto Slab;
+  font-size: 30px;
+  color: #0D3351;
+}
+.oldprice{
+  font-family: Roboto Slab;
+  font-size: 18px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #0D3351;
 
+}
 /*buttons*/
 
 .btn{
   align-self: center;
-  margin: 58px 0 0 0;
+  margin: 32px 0 0 0;
   padding: 16px 50px;
   display: inline-block;
   vertical-align: middle;
@@ -65,6 +65,10 @@ p{
   font-size: 14px;
   text-align: center;
   text-decoration: none;
+}
+
+#btnmore{
+  margin: 13px 0 0 28px;
 }
 
 /*header*/
@@ -77,7 +81,7 @@ header{
   z-index: 99;
 }
 .header-wrap{
-  margin-top: 30px;
+  margin-top: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,12 +136,12 @@ header{
   font-family: Raleway;
   font-weight: bold;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 .support{
   font-family: Raleway;
   font-size: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 /*banner*/
@@ -182,18 +186,22 @@ header{
   display: flex;
   align-content: center;
 }
-.main-1{
-  position: relative;
-}
-.flag{
-  background-image: url(img/tag1.png); 
+.flag1,
+.flag2{ 
   position: absolute;
   width: 90px;
   height: 101px;
   right: 45px;
   top: -9px;
 }
-.flag span{
+.flag1{
+  background-image: url(img/tag1.png);
+}
+.flag2{
+  background-image: url(img/tag2.png);
+}
+.flag1 span,
+.flag2 span{
   margin-top: 30px;
   display: block;
 
@@ -204,11 +212,17 @@ header{
   letter-spacing: 0.7px;
   color: #FFFFFF;
 }
+.topic{
+  padding: 30px 0 37px 47px;
+}
+
+
 
 /*advise*/
 .advise-wrapper{
+  position: relative;
   background-color: #FFFFFF;
-  margin: 10px;
+  margin: 10px 15px;
 
 }
 
