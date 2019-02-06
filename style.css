@@ -88,11 +88,33 @@ header{
   align-items: center;
   justify-content: space-between;
 }
-.menushka a{
+.menushka > a{
   background-image: url(img/menu.png) ;
   display: block;
   height: 16px;
   width: 22px;
+  position: relative;
+}
+.dropdown{
+  position: absolute;
+  width: 420px;
+  height: 410px;
+  background-color: #0D3351; 
+}
+.menushka-dropdown{
+  display: block;
+  margin: 65px 0 0 45px;
+  list-style: none;
+}
+.dropdown li{  
+  font-size: 18px;
+  margin: 0 0 29px 0;
+}
+.dropdown a{  
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 .top-menu{
   margin-left: auto;
@@ -122,7 +144,6 @@ header{
   background-position-y: 6px;
   background-position-x: right;
 }
-
 .menu_link{
   text-decoration: none;
   font-family: Raleway;
@@ -236,7 +257,8 @@ footer{
   padding: 29px 0 42px 0;
   font-size: 14px;
   background-color: #FFFFFF;
-  
+  font-family: Raleway;
+  font-size: 14px;
 }
 .footer-wrap{
   display: flex;
