@@ -97,8 +97,10 @@ header{
 }
 .dropdown{
   position: absolute;
-  width: 420px;
+  /* width: 420px; */
+  width: 0;
   height: 410px;
+  overflow: hidden;
   background-color: #0D3351; 
 }
 .menushka-dropdown{
