@@ -31,16 +31,18 @@ h2{
 h6{
   font-family: Roboto Slab;
   font-size: 18px;
+  line-height: 42px;
   color: #00A2DD;
 }
 p{
   font-family: Raleway;
   font-size: 14px;
-
+  line-height: 24px;
 }
 .price{
   font-family: Roboto Slab;
   font-size: 30px;
+  line-height: 48px;
   color: #0D3351;
 }
 .oldprice{
@@ -49,7 +51,7 @@ p{
   text-align: center;
   text-decoration-line: line-through;
   color: #0D3351;
-
+  opacity: 0.54;
 }
 /*buttons*/
 
@@ -213,20 +215,19 @@ header{
   color: #FFFFFF;
 }
 .topic{
-  padding: 30px 0 37px 47px;
+  padding: 10px 0 20px 45px;
 }
-
-
 
 /*advise*/
 .advise-wrapper{
   position: relative;
   background-color: #FFFFFF;
   margin: 10px 15px;
-
 }
 
-
+#main3{
+  margin: 39px 14px 0px 15px;
+}
 /*footer*/
 
 footer .page-footer{
