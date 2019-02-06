@@ -195,6 +195,7 @@ header{
   height: 101px;
   right: 45px;
   top: -9px;
+  background-repeat: no-repeat;
 }
 .flag1{
   background-image: url(img/tag1.png);
@@ -230,20 +231,33 @@ header{
 }
 /*footer*/
 
-footer .page-footer{
+footer{
   min-height: 50px;
   padding: 29px 0 42px 0;
   font-size: 14px;
+  background-color: #FFFFFF;
+  
 }
 .footer-wrap{
-  width: 1672px;
-  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.page-footer .sitemap{
-  float: left;
-  vertical-align: middle;
+
+.sitemap{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.page-footer.copyright{
+.social{
+  margin-right: auto;
+  margin-left: 140px;
+}
+.footer-right{
+  display: block;
+  width: 150px;
+}
+.copyright{
   float: right;
   padding-top: 20px;
   font-size: 12px;
