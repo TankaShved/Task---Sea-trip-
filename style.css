@@ -263,9 +263,14 @@ header{
   margin: 39px 14px 0px 15px;
 }
 
+.detail{
+  display: none;
+}
+
 /* Popup */
+
 .popup-wrapper{
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 
@@ -276,6 +281,15 @@ header{
   left: 0px;
   top: 0px;
 }
+.popup .detail{
+  display: block;
+}
+.fotos-preview img{
+  width: 100px;
+  height: 100px;
+}
+
+
 .popup{
   position: relative;
   overflow: hidden;
@@ -296,11 +310,21 @@ header{
   position: relative;
   left: -10px;
 }
-
 #closebtn{
   position: absolute;
   display: block;
   right: 15px;
+  cursor: pointer;
+}
+
+#lenta > div{  
+  display: flex;
+  flex-direction: row;
+  margin: 19px 0 10px 12px;  
+}
+#lenta .foto > img{
+  width: 360px;
+  height: 240px;
 }
 
 /*footer*/

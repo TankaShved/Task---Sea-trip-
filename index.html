@@ -68,7 +68,7 @@
                     <img src="img/logo1.png" />
                     <h2>Морские прогулки</h2>
                     <h1>ПО ЧЁРНОМУ МОРЮ</h1>
-                    <a href="#" class="btn">Выбрать круиз</a>
+                    <a href="#" name="top" class="btn">Выбрать круиз</a>
                 </div>
             </div>
         </div>
@@ -87,8 +87,16 @@
                             <div class="flag1">
                                 <span>ХИТ ПРОДАЖ</span>
                             </div>
-                            <div>
-                                <img src="img/md1.png">
+                            <div id="ad1">
+                                <div class="foto">
+                                    <img src="img/md1.png" onclick="imagesClick('ad1')">
+                                    <div class="detail fotos-preview">
+                                        <img src="img/photo1.png">
+                                        <img src="img/photo2.png">
+                                        <img src="img/photo3.png">
+                                        <img src="img/photo4.png">
+                                    </div>
+                                </div>
                                 <div class="topic">
                                     <h6>Морской круиз в Анапу</h6>
                                     <p>Маршрут: Сочи-Лазаревское-Геленджик-Анапа</p>
@@ -104,35 +112,64 @@
                             <div class="flag2">
                                 <span>АКЦИЯ</span>
                             </div>
-                            <img src="img/md2.png">
-                            <div class="topic">
-                                <h6>Обзорная морская прогулка с экскурсией</h6>
-                                <p>Маршрут: Сочи-Адлер-Сочи (без высадки) </p>
-                                <p>Продолжительность: 1 ч. </p>
-                                <span class="price">5 000 руб.</span>
-                                <span class="oldprice">15000 руб.</span>
+                            <div id="ad2">
+                                <div class="foto">
+                                    <img src="img/md2.png" onclick="imagesClick('ad2')">
+                                    <div class="detail fotos-preview">
+                                        <img src="img/photo1.png">
+                                        <img src="img/photo2.png">
+                                        <img src="img/photo3.png">
+                                        <img src="img/photo4.png">
+                                    </div>
+                                </div>
+                                <div class="topic">
+                                    <h6>Обзорная морская прогулка с экскурсией</h6>
+                                    <p>Маршрут: Сочи-Адлер-Сочи (без высадки) </p>
+                                    <p>Продолжительность: 1 ч. </p>
+                                    <span class="price">5 000 руб.</span>
+                                    <span class="oldprice">15000 руб.</span>
+                                </div>
                             </div>
                         </div>
                         <div class="main-3 advise-wrapper" id="main3">
                             <div class="flag2">
                                 <span>СКИДКА 10%</span>
                             </div>
-                            <img src="img/md3.png">
-                            <div class="topic">
-                                <h6>Морская прогулка в Геленджик</h6>
-                                <p>Маршрут: Сочи-Туапсе-Геленджик</p>
-                                <p>Продолжительность: 12 ч. 30 мин.</p>
-                                <span class="price">7 000 руб.</span>
-                                <span class="oldprice">10000 руб.</span>
+                            <div id="ad3">
+                                <div class="foto">
+                                    <img src="img/md3.png" onclick="imagesClick('ad3')">
+                                    <div class="detail fotos-preview">
+                                        <img src="img/photo1.png">
+                                        <img src="img/photo2.png">
+                                        <img src="img/photo3.png">
+                                        <img src="img/photo4.png">
+                                    </div>
+                                </div>
+                                <div class="topic">
+                                    <h6>Морская прогулка в Геленджик</h6>
+                                    <p>Маршрут: Сочи-Туапсе-Геленджик</p>
+                                    <p>Продолжительность: 12 ч. 30 мин.</p>
+                                    <span class="price">7 000 руб.</span>
+                                    <span class="oldprice">10000 руб.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-                <div class="cruise">
-                    <div class="main-4 advise-wrapper">
-                        <img src="img/md4.png">
+
+            <div class="cruise">
+                <div class="main-4 advise-wrapper">
+                    <div id="ad4">
+                        <div class="foto">
+                            <img src="img/md4.png" onclick="imagesClick('ad4')">
+                            <div class="detail fotos-preview">
+                                <img src="img/photo1.png">
+                                <img src="img/photo2.png">
+                                <img src="img/photo3.png">
+                                <img src="img/photo4.png">
+                            </div>
+                        </div>
                         <div class="topic">
                             <h6>Морской круиз в Новороссийск</h6>
                             <p>Маршрут: Сочи-Геленджик-Новороссйиск-Геленджик-Сочи</p>
@@ -140,8 +177,18 @@
                             <span class="price">14 800 руб.</span>
                         </div>
                     </div>
-                    <div class="main-5 advise-wrapper">
-                        <img src="img/md5.png">
+                </div>
+                <div class="main-5 advise-wrapper">
+                    <div id="ad5">
+                        <div class="foto">
+                            <img src="img/md5.png" onclick="imagesClick('ad5')">
+                            <div class="detail fotos-preview">
+                                <img src="img/photo1.png">
+                                <img src="img/photo2.png">
+                                <img src="img/photo3.png">
+                                <img src="img/photo4.png">
+                            </div>
+                        </div>
                         <div class="topic">
                             <h6>Морская прогулка в Абрау-Дюрсо </h6>
                             <p>Маршрут: Сочи-Абрау-Дюрсо</p>
@@ -150,43 +197,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="sort">
-                    <a href="#" class="btn" id="btnmore">Больше круизов</a>
-                </div>
+            </div>
+            
+        </div>
+            <div class="sort">
+                <a href="#" class="btn" id="btnmore">Больше круизов</a>
             </div>
         </div>
+
     </main>
 
     <div class="popup-wrapper" id="jspopup">
         <div class="popup">
             <span id="closebtn">X</span>
-            
-            <div class="lenta">
-                <div class="card">
-                    <div>
-                        <img src="img/cardSea1.png">
-
-                    </div>
-                    <div class="topic">
-                        <h6>Морской круиз в Анапу</h6>
-                        <p>Маршрут: Сочи-Лазаревское-Геленджик-Анапа</p>
-                        <p>Продолжительность: 10 ч. 0 мин.</p>
-                        <span class="price">49 000 руб.</span>
-                    </div>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="img/cardSea1.png">
-
-                    </div>
-                    <div class="topic">
-                        <h6>Морской круиз в Анапу</h6>
-                        <p>Маршрут: Сочи-Лазаревское-Геленджик-Анапа</p>
-                        <p>Продолжительность: 10 ч. 0 мин.</p>
-                        <span class="price">49 000 руб.</span>
-                    </div>
-                </div>
-            </div>
+            <div id="lenta"></div>
         </div>
     </div>
 
