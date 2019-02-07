@@ -152,21 +152,16 @@ header{
   font-size: 14px;
   text-align: center;
 }
-
 .sitemap a{
   text-decoration: none;
   font-family: Raleway;
   font-size: 14px;
-  text-align: center;
 }
-
 .header-right{
   display: block;
   width: 129px;
   margin: 0 0px 0 40px;
 }
-
-
 .number{
   font-family: Raleway;
   font-weight: bold;
@@ -177,6 +172,9 @@ header{
   font-family: Raleway;
   font-size: 10px;
   text-align: left;
+}
+.footer-right .support{
+  line-height: 24px;
 }
 
 /*banner*/
@@ -344,34 +342,35 @@ header{
 /*footer*/
 
 footer{
-  min-height: 50px;
-  padding: 29px 0 42px 0;
-  font-size: 14px;
+  padding: 24px 0 38px 0;
   background-color: #FFFFFF;
-  font-family: Raleway;
-  font-size: 14px;
+  /*font-family: Raleway;
+  font-size: 14px;*/
 }
 .footer-wrap{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /*align-items: center;
+  justify-content: space-between;*/
 }
-
 .sitemap{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 .social{
   margin-right: auto;
-  margin-left: 140px;
+  margin-left: 117px;
 }
+.icon-vk{
+  background-image: url(img/vk.png) no-repeat;
+  background-position-y: 10px;
+  }
 .footer-right{
   display: block;
-  width: 150px;
 }
 .copyright{
+  font-family: Raleway;
   float: right;
-  padding-top: 20px;
-  font-size: 12px;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.7px;
 }
