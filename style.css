@@ -249,7 +249,7 @@ header{
   color: #FFFFFF;
 }
 .topic{    
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 30px 20px;
 }
 
 /*advise*/
@@ -288,6 +288,13 @@ header{
   height: 58px;
   margin: 2px;
 }
+.fotos-preview img:first-child{
+  margin-left: 0px;
+}
+.fotos-preview img:last-child{
+  margin-right: 0px;
+}
+
 .popup{
   position: relative;
   overflow: hidden;
@@ -319,14 +326,20 @@ header{
   margin: 113px 0 0 49px;  
 }
 #lenta .foto > img{
-  width: 360px;
+  width: 358px;
   height: 240px;
 }
+
 #lenta .topic{
   display: flex;
   flex-direction: column;
 }
-
+.disc{
+  width: 360px;
+}
+#lenta .topic a{
+  align-self: start;
+}
 
 /*footer*/
 
